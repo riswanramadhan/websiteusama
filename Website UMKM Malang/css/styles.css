@@ -2592,6 +2592,15 @@ a:hover.back-to-top {
 	.footer .text-container.about {
 		margin-right: 5rem;
 	}
+
+	.footer-logo {
+		width: 64px;
+		height: 64px;
+	}
+
+	.footer-logo-container {
+		margin-left: auto;
+	}
 	/* end of footer */
 
 
@@ -2608,6 +2617,15 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+@media (max-width: 768px) {
+    .footer-logo {
+        /* Atur ukuran yang lebih kecil untuk mobile */
+        width: 40px; 
+        height: 40px;
+		margin-left: 16px;
+    }
+}
 
 /* ========= USAMA BRAND CARD HOVER ========= */
 .card {
@@ -2680,3 +2698,20 @@ a:hover.back-to-top {
 	/* end of navigation */
 }
 /* end of min-width width 1200px */
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
